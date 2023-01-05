@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color: #dfd2db;
+}
+* {
+  box-sizing: border-box;
+}
+#myDiv {
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: auto;
+  direction: rtl;
+}
+#myToDo {
+  width: 100%;
+  padding: 0 30px;
+}
+h5 {
+  color: #304f6d;
+  display: block;
+}
+#myInput {
+  width: 89%;
+  border-radius: 3px;
+  border: 1px solid #e3e3e1;
+  padding: 5px;
+  font-size: 12px;
+}
+.addBtn {
+  background-color: #0d6ffb;
+  color: white;
+  border-radius: 3px;
+  width: 10%;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+}
+p {
+  color: #aeb1b5;
+  font-size: 10px;
+  display: block;
+}
+#myUl {
+  list-style: none;
+  width: 100%;
+  padding: 0 30px;
+}
+.toDo {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e1;
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-size: 10px;
+  color: #0d6ffb;
+  cursor: pointer;
+}
+#notList{
+  margin-right: 30px;
+  color: gray;
+}

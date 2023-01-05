@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../css/all.css" />
+    <script
+    src="https://unpkg.com/react@18/umd/react.development.js"
+    crossorigin
+    ></script>
+    <script
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./script.js" defer type="text/babel"></script>
+  </head>
+  <body>
+    <div id="myDiv">
+      <div id="myToDo" >
+        <h5>کارهای مهم روزانه</h5>
+        <input type="text" id="myInput" />
+        <span class="addBtn" onclick="addToDo()">افزودن</span>
+        <p>دیگه چه کاری مونده که بایدانجام بدی؟</p>
+      </div>
+      <ul id="myUl">
+        <!-- toDO -->
+        <!-- <li class="toDo">
+            <input type="checkbox"  id="myCheckBox">
+            <p>maryam</p>
+        </li> -->
+      </ul>
+      <h6 id="notList" >می توانید لیست کارهای خود را وارد کنید.</h6>
+    </div>
+  </body>
+</html>
+
